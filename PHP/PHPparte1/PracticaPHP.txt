@@ -1,0 +1,74 @@
+EJERCICIO 1
+
+VARIABLES:
+$a = boolean
+$b = string
+$c = string
+$d = integer
+$f = integer
+$g = integer
+
+OPERADORES
+Unarios : ++
+Binarios: + , *, +=
+Ternario: ?:
+
+FUNCIONES
+DOBLE(entero)
+gettype(boolean | string | integer | float)
+is_int(integer)
+is_string(string)
+return integer| string | float | boolean
+Todos los parametros son por valor
+
+Estructuras de control
+if
+
+Salida por pantalla
+boolean
+string
+string
+integer
+TRUE, xyz, xyz, 17, 32, 42
+
+
+EJERCICIO 2
+A) Son iguales, a diferencia que el primero puede no funcionar correctamente, ya que falta la sentencia endwhile
+B) No son equivalentes, el tercer codigo no tiene finalizacion
+C) Iguales
+
+EJERCICIO 3
+A) Muestra una tabla 5x2 
+B)Primeramente el codigo verifica si el Formulario fue enviado, si no es asi, abre el formulario para que rellene la edad y lo envie con un boton submit, este se envia en post, luego rescata esa edad del form y la asigna a $age donde existe un if que verifica si es mayor de 21, si es asi devuelve que es mayor de edad, de lo contrario es menor de edad. 
+Al usar echo $_SERVER['PHP_SELF']; los datos se envian al mismo php para trabajarlos, no se envian a un archivo externo
+
+EJERCICIO 4
+PHP utiliza variables locales por lo tanto en el primer echo dara un error de que la variable no esta declarada y en el segundo echo saldra en pantalla clavel blanco
+
+EJERCICIO 5
+
+
+
+
+PARTE 2 PHP ARRAYS Y FUNCIONES
+
+EJERCICIO 1:
+Los codigos son equivalentes, el primero ejecuta el array con la funcion array() donde se declaran las variables del arreglo de una sola vez, en cambio en el segundo codigo usa una sintaxis con [] donde es mas laborioso pero es mas flexible al agregar objetos clave-valor
+
+
+EJERCICIO 2:
+a) bar
+   true
+b)5
+  9
+  42
+c) No veremos nada debido a que unset($matriz), elimina la matriz completa
+
+
+EJERCICIO 3:
+"Has entrado en esta pagina a las 15 horas, con 19 minutos y 42
+segundos, del 26/09/2023"; Utilizando la fecha actual
+b)
+5+6=11
+
+EJERCICIO 4:
