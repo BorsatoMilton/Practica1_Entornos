@@ -1,0 +1,24 @@
+*{
+background-color: silver;
+}
+
+table {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    align-items: center;
+    font-size: large;
+}
+
+th, tr { 
+    border: 1px solid;
+    
+}
+
+div{
+    background-color: antiquewhite;
+}
+form{
+    background-color: antiquewhite;
+}
+
