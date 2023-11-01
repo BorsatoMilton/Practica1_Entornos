@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(216, 216, 179);
+}
+
+table {
+    align-items: center;
+    border: solid;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 500px;
+    border-spacing: 6px;
+    background-color: rgb(241, 220, 144);
+    height: 180px;
+}
+
+th,
+td {
+    background-color: rgb(241, 212, 109);
+}
